@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    /* color: #673268;
+    color: #003777;
+    color: #094395;
+    color: #0394C9;
+    color: #007784;
+    color: #A0E4F1;
+    color: #FBF4DA;
+    color: white; */
+}
+
+
+body {
+    background-image: url(../img/Fondo\ logo\ Almar.jpg);
+    background-size: 100% auto;
+}
+
+.whatsapp {
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    right: 20px;
+    bottom: 25px;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    border-radius: 100%;
+    /* background-color:#003777; */
+    /* border: solid 2px green; */
+}
+
+
+/* ASIDE FACEBOOK */
+.fb-page {
+    border: 3px solid #673268;
+    border-radius: 7px;
+}
+
+
+/* HEADER */
+header {
+    width: 100%;
+    background-color: #673268;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 3px 3px 20px rgb(56, 56, 56);
+}
+
+.logos {
+    width: 22%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: inline-block;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+nav ul li a:hover {
+    padding: 10px;
+    background-color: #A0E4F1;
+    border-radius: 100px;
+    color: #673268;
+}
+
+a.active {
+    color: #A0E4F1;
+}
+
+
+/* SECTION PROVISORIA */
+section {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #003777;
+}
+
+.logo {
+    width: 35%;
+    margin: 20px;
+}
+
+
+/* FOOTER */
+footer {
+    padding: 20px;
+    background-color: #003777;
+    color: white;
+    text-align: center;
+    font-size: x-small;
+}
+
+.IconosRedes {
+    margin: 13px;
+}
+
+.IconosRedes a {
+    margin: 13px;
+}
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+}
+
+footer ul li a {
+    color: #A0E4F1;
+}
+
+
+/* FORMULARIO */
+.contacto {
+    margin-top: 10px;
+    display: flex;
+}
+
+.contacto h4 {
+    margin-bottom: 10px;
+}
+
+
+.logoform {
+    width: 45%;
+    text-align: center;
+}
+
+form {
+    width: 55%;
+    margin: 20px 65px;
+}
+
+label {
+    display: block;
+    color: #673268;
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #673268;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    background-color: #e1f5f8b3;
+}
+
+::placeholder {
+    font-size: 12px;
+    color: #0394c9da;
+}
+
+form button {
+    background-color: #673268;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form button:hover {
+    color: #A0E4F1;
+}
+
+iframe.map {
+    padding: 10px;
+    display: block;
+    margin: auto;
+}
+
+
+/*********************/
+/*    RESPONSIVE    */
+
+
+/* Tablet 768px a 1023px */
+@media (max-width:1023px) {
+    /* Header */
+
+
+
+
+}
+
+
+
+/* Mobile 0 a 768px */
+@media (max-width:768px) {
+    /* Header */
+
+
+
+
+}
