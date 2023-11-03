@@ -100,6 +100,7 @@ a.active {
     /* border: solid 2px green; */
 }
 
+
 /* INICIO */
 .logo-carrousel img {
     opacity: 0.6;
@@ -136,7 +137,28 @@ a.active {
     border-radius: 7px;
     margin: 30px;
     box-shadow: 3px 3px 20px #673268;
-  
+}
+
+
+/* ACERCA DE MI */
+.img-acercademi {
+    margin-top: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-acercademi {
+    padding: 50px 110px 3px 5px;
+    margin-top: 20px;
+}
+
+.logo-acercademmi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 
@@ -146,35 +168,13 @@ a.active {
 } */
 
 
-/*   FOOTER   */
-footer {
-    padding: 20px;
-    background-color: #003777;
-    color: white;
-    text-align: center;
-    font-size: x-small;
-}
-
-.IconosRedes {
-    margin: 13px;
-}
-
-.IconosRedes a {
-    margin: 13px;
-}
-
-footer ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 8px;
-}
-
-footer ul li a {
-    color: #A0E4F1;
-}
 
 
-/* FORMULARIO */
+
+
+
+/* CONTACTO */
+/* Formulario */
 .contacto {
     margin-top: 10px;
     display: flex;
@@ -183,7 +183,6 @@ footer ul li a {
 .contacto h4 {
     margin-bottom: 10px;
 }
-
 
 .logoform {
     width: 45%;
@@ -233,10 +232,44 @@ form button:hover {
     color: #A0E4F1;
 }
 
+/* Ubicación */
+.ubicacion {
+    text-align: center;
+}
+
 iframe.map {
     padding: 10px;
     display: block;
     margin: auto;
+}
+
+
+
+/*   FOOTER   */
+footer {
+    padding: 20px;
+    background-color: #003777;
+    color: white;
+    text-align: center;
+    font-size: x-small;
+}
+
+.IconosRedes {
+    margin: 13px;
+}
+
+.IconosRedes a {
+    margin: 13px;
+}
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+}
+
+footer ul li a {
+    color: #A0E4F1;
 }
 
 
@@ -245,21 +278,20 @@ iframe.map {
 
 
 /* Tablet 768px a 1023px */
-@media (max-width:1023px) {
-    /* Header */
-
-
-
-
-}
+@media (max-width:1023px) {}
 
 
 
 /* Mobile 0 a 768px */
 @media (max-width:768px) {
-    /* Header */
+    /* Formulario */
 
+    .logoform {
+        display: none;
+    }
 
-
+    form {
+        width: 90%;
+    }
 
 }
